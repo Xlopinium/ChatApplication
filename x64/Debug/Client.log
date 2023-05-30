@@ -1,0 +1,11 @@
+﻿  Reading Qt configuration (C:/Qt/6.5.0/msvc2019_64/bin/qmake)
+  uic Client.ui
+  rcc Client.qrc
+  moc Client.h
+   C:\Users\frien\source\repos\ChatAppV3\Client\Client.ui: Warning: Z-order assignment: '' is not a valid widget.
+   RCC: Warning: No resources in 'C:\Users\frien\source\repos\ChatAppV3\Client\Client.qrc'.
+  Client.cpp
+  main.cpp
+  qrc_Client.cpp
+  moc_Client.cpp
+  Client.vcxproj -> C:\Users\frien\source\repos\ChatAppV3\Client\x64\Debug\Client.exe

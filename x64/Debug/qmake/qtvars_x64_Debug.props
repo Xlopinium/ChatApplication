@@ -1,11 +1,11 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_PLUGIN;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB</Qt_DEFINES_>
-<Qt_INCLUDEPATH_>C:\Users\frien\AppData\Local\Temp\1vrarmzi.ydu;C:\Qt\6.5.0\msvc2019_64\include;C:\Qt\6.5.0\msvc2019_64\include\QtGui;C:\Qt\6.5.0\msvc2019_64\include\QtNetwork;C:\Qt\6.5.0\msvc2019_64\include\QtCore;C:\Users\frien\AppData\Local\Temp\1vrarmzi.ydu;/include;C:\Qt\6.5.0\msvc2019_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:\Users\frien\AppData\Local\Temp\od02in3z.51z;C:\Qt\6.5.0\msvc2019_64\include;C:\Qt\6.5.0\msvc2019_64\include\QtWidgets;C:\Qt\6.5.0\msvc2019_64\include\QtGui;C:\Qt\6.5.0\msvc2019_64\include\QtNetwork;C:\Qt\6.5.0\msvc2019_64\include\QtCore;C:\Users\frien\AppData\Local\Temp\od02in3z.51z;/include;C:\Qt\6.5.0\msvc2019_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
 <Qt_STDCPP_>stdcpp17</Qt_STDCPP_>
 <Qt_RUNTIME_>MultiThreadedDebugDLL</Qt_RUNTIME_>
 <Qt_CL_OPTIONS_>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8</Qt_CL_OPTIONS_>
-<Qt_LIBS_>C:\Qt\6.5.0\msvc2019_64\lib\Qt6Guid.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6Networkd.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6Cored.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6EntryPointd.lib;shell32.lib</Qt_LIBS_>
+<Qt_LIBS_>C:\Qt\6.5.0\msvc2019_64\lib\Qt6Widgetsd.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6Guid.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6Networkd.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6Cored.lib;C:\Qt\6.5.0\msvc2019_64\lib\Qt6EntryPointd.lib;shell32.lib</Qt_LIBS_>
 <Qt_LINK_OPTIONS_>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"</Qt_LINK_OPTIONS_>
 <QMake_QT_SYSROOT_></QMake_QT_SYSROOT_>
 <QMake_QT_INSTALL_PREFIX_>C:/Qt/6.5.0/msvc2019_64</QMake_QT_INSTALL_PREFIX_>
@@ -33,11 +33,11 @@
 <QMake_QMAKE_VERSION_>3.1</QMake_QMAKE_VERSION_>
 <QMake_QT_VERSION_>6.5.0</QMake_QT_VERSION_>
 <Qt_INCLUDEPATH_
-      >$(Qt_INCLUDEPATH_);x64\Debug\moc</Qt_INCLUDEPATH_>
+      >$(Qt_INCLUDEPATH_);x64\Debug\moc;x64\Debug\uic</Qt_INCLUDEPATH_>
     <QtBkup_QtInstall
       >6.5.0_msvc2019_64</QtBkup_QtInstall>
     <QtBkup_QtModules
-      >core;network</QtBkup_QtModules>
+      >core;gui;widgets;network</QtBkup_QtModules>
     <QtBkup_QtPathBinaries
       >bin</QtBkup_QtPathBinaries>
     <QtBkup_QtPathLibraryExecutables

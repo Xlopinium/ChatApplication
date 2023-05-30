@@ -1,18 +1,10 @@
-#include <QCoreApplication>
-#include "server.h"
+#include "Client.h"
+#include <QtWidgets/QApplication>
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
-    server myServer;
-    if (!myServer.isListening())
-    {
-        qDebug() << "Server could not start!";
-        return -1;
-    }
-
-    qDebug() << "Server started on port" << myServer.serverPort();
-
+    QApplication a(argc, argv);
+    Client w;
+    w.show();
     return a.exec();
 }

@@ -1,2 +1,2 @@
 CONFIG += no_fixpath
-QT += core network
+QT += core gui widgets network
