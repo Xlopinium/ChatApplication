@@ -1,0 +1,5 @@
+﻿  Reading Qt configuration (C:/Qt/6.5.0/msvc2019_64/bin/qmake)
+  main.cpp
+  server.cpp
+  moc_server.cpp
+  server.vcxproj -> C:\Users\frien\source\repos\ChatAppV3\server\x64\Debug\server.exe
